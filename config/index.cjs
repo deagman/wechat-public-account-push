@@ -22,7 +22,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: 'Wendy',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
+      id: 'oHVV_6UrhnFSdStmzBoemIAXlfqI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Gn3p1_LSVbe4nhi5f8bqA4U7UUQlSQj_TydoeegIaaM',
       // 所在省份或城市，也可以不填

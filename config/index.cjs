@@ -33,7 +33,10 @@ const USER_CONFIG = {
       horoscopeDate: '09-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
-      literary_preference: '""'
+      /** 每日一言 */
+      // 每日一言的内容类型
+      // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
+      literary_preference: '""',
       festivals: [
         /* 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {

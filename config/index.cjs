@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'GqXUFelSVtyVvQ62VXW5HbEKyWafUwNXzFFsv6-FOk4',
+      useTemplateId: '	-0g1BVhoUJ6EyT9KHCEvdDI7m_lwCXmIIAoPvFtNMqo',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -33,6 +33,7 @@ const USER_CONFIG = {
       horoscopeDate: '09-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
+      literary_preference: '""'
       festivals: [
         /* 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -41,16 +42,14 @@ const USER_CONFIG = {
         */
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: 'WendyLei法定', year: '2006', date: '07-18',
+          type: '生日', name: 'Wendy的法定', year: '2006', date: '07-18',
         },
         {
-          type: '生日', name: 'WendyLei自然', year: '2006', date: '09-02',
+          type: '生日', name: 'Wendy的自然', year: '2006', date: '09-02',
         },
-        /*
         {
           type: '节日', name: '647号宇宙的诞生', year: '2023', date: '01-01',
         },
-        */
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -59,11 +58,11 @@ const USER_CONFIG = {
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
         // 来到647号宇宙的日子
-           { keyword:  'coming_day', date: '2023-01-01'}
+           { keyword: 'coming_day', date: '2023-01-01'}
       ],
     },
   ],
-    SLOT_LIST: [
+  SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
     { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
     // 这样配置的话，就会每次随机选一句话发送
@@ -78,6 +77,12 @@ const USER_CONFIG = {
     }
     // 你可以不断按格式往下增加
     // ...
+    {
+      keyword: 'math_homework',
+      contents:[
+        ''
+      ],
+    }
   ],
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: '',

@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '3zAYsfvVJ4ZcrpyOkcVPHiH_hVJCzUfTk7pWiXSjGQc',
+      useTemplateId: 'nauau1j5snmz5yLpKbGAKrSr2gN0GIy0YOQ8mcRhPMw',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -46,9 +46,11 @@ const USER_CONFIG = {
         {
           type: '生日', name: 'Wendy自然', year: '2006', date: '09-02',
         },
+        /*
         {
           type: '节日', name: '647号宇宙的诞生', year: '2023', date: '01-01',
         },
+        */
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [

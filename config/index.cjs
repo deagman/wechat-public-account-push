@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6UrhnFSdStmzBoemIAXlfqI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Gn3p1_LSVbe4nhi5f8bqA4U7UUQlSQj_TydoeegIaaM',
+      useTemplateId: 'wyOU21qHrZYvY4U9-T3AqJAaxmofKweoN7sRLCqmW0g',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -65,7 +65,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
-      useTemplateId: 'Gn3p1_LSVbe4nhi5f8bqA4U7UUQlSQj_TydoeegIaaM',
+      useTemplateId: 'wyOU21qHrZYvY4U9-T3AqJAaxmofKweoN7sRLCqmW0g',
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',
@@ -104,7 +104,7 @@ const USER_CONFIG = {
       contents: [
         '你是宇宙里恰好相遇的浪漫',
         '阳光很好，风也正好，一片叶子掉落，都想第一个告诉你',
-        '为了寻找你，我搬进了鸟的眼睛，经常盯着路过的风'，
+        '为了寻找你，我搬进了鸟的眼睛，经常盯着路过的风',
         '我这一生，除了故乡，只为你一个人写过月亮',
         '你就是盛开着的，漫山遍野的温柔',
         '不要愁老之将至，你老了也一定很可爱',

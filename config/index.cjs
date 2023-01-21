@@ -69,7 +69,7 @@ const USER_CONFIG = {
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',
-      horoscopeDateType: '本周',
+      horoscopeDateType: '',
       festivals: [
         {
           type: '生日', name: 'Wendy法定', year: '2006', date: '07-18',

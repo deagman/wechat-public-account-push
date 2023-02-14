@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6UrhnFSdStmzBoemIAXlfqI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'wyOU21qHrZYvY4U9-T3AqJAaxmofKweoN7sRLCqmW0g',
+      useTemplateId: 'TSRtBPygYCF2SKUflZZbkyIWF_ykvS3EbPuPC5O4Pe8',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -32,7 +32,7 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '',
+      horoscopeDateType: ' ',
       festivals: [
         /* 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -65,7 +65,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
-      useTemplateId: 'wyOU21qHrZYvY4U9-T3AqJAaxmofKweoN7sRLCqmW0g',
+      useTemplateId: 'TSRtBPygYCF2SKUflZZbkyIWF_ykvS3EbPuPC5O4Pe8',
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',

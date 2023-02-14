@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6UrhnFSdStmzBoemIAXlfqI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'TSRtBPygYCF2SKUflZZbkyIWF_ykvS3EbPuPC5O4Pe8',
+      useTemplateId: 'ObYRZ4k_C9LHeGTHiuhdzkN6xDSqM7lLGiTNub8-et4',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -65,17 +65,20 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
-      useTemplateId: 'TSRtBPygYCF2SKUflZZbkyIWF_ykvS3EbPuPC5O4Pe8',
+      useTemplateId: 'ObYRZ4k_C9LHeGTHiuhdzkN6xDSqM7lLGiTNub8-et4',
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',
-      horoscopeDateType: '',
+      horoscopeDateType: ' ',
       festivals: [
         {
           type: '生日', name: 'Wendy法定', year: '2006', date: '07-18',
         },
         {
           type: '生日', name: 'Wendy自然', year: '2006', date: '09-02',
+        },
+        {
+          type: '节日', name: '647号宇宙的诞生', year: '2023', date: '01-01',
         },
       ],
       customizedDateList: [

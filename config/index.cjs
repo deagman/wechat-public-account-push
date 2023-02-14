@@ -32,7 +32,7 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '09-02',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
-      horoscopeDateType: '""',
+      horoscopeDateType: '',
       festivals: [
         /* 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -69,7 +69,7 @@ const USER_CONFIG = {
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',
-      horoscopeDateType: '""',
+      horoscopeDateType: '',
       festivals: [
         {
           type: '生日', name: 'Wendy法定', year: '2006', date: '07-18',

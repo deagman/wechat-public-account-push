@@ -40,11 +40,13 @@ const USER_CONFIG = {
         },
         */
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        /*
         {
           type: '生日', name: 'Wendy法定', year: '2006', date: '07-18',
         },
+        */
         {
-          type: '生日', name: 'Wendy自然', year: '2006', date: '09-02',
+          type: '生日', name: 'Wendy', year: '2006', date: '09-02',
         },
         /*
         {
@@ -59,7 +61,7 @@ const USER_CONFIG = {
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
         // 来到647号宇宙的日子
-           { keyword: 'coming_day', date: '2023-01-01'}
+        // { keyword: 'coming_day', date: '2023-01-01'}
       ],
     },
     {
@@ -71,18 +73,34 @@ const USER_CONFIG = {
       horoscopeDate: '09-02',
       horoscopeDateType: '',
       festivals: [
+        /* 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+        },
+        */
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        /*
         {
           type: '生日', name: 'Wendy法定', year: '2006', date: '07-18',
         },
+        */
         {
-          type: '生日', name: 'Wendy自然', year: '2006', date: '09-02',
+          type: '生日', name: 'Wendy', year: '2006', date: '09-02',
         },
+        /*
         {
           type: '节日', name: '647号宇宙的诞生', year: '2023', date: '01-01',
         },
+        */
       ],
+      // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-           { keyword: 'coming_day', date: '2023-01-01'}
+        // 在一起的日子
+        // { keyword: 'love_day', date: '2022-09-08' },
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '2022-09-09' },
+        // 来到647号宇宙的日子
+        // { keyword: 'coming_day', date: '2023-01-01'}
       ],
     }
   ],
@@ -111,7 +129,7 @@ const USER_CONFIG = {
         '早上好，Wendy，如果以后不能遇见你，提前祝你早安，午安，晚安',
         '拿起你的宝丽来多拍拍生活的美好',
         '你又瘦了,马甲线更明显了',
-        '一日一题：已知函数f(x)=ax^3-3x^2+1，如果f(x)存在唯一零点x0，且x0>0，则实数a的取值范围是()A(1，+∞)B(2，+∞)C(-∞，-1)D(-∞，-2)',
+        '已知函数f(x)=ax^3-3x^2+1，如果f(x)存在唯一零点x0，且x0>0，则实数a的取值范围是()A(1，+∞)B(2，+∞)C(-∞，-1)D(-∞，-2)',
       ],
     }
     // 你可以不断按格式往下增加

@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6UrhnFSdStmzBoemIAXlfqI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ObYRZ4k_C9LHeGTHiuhdzkN6xDSqM7lLGiTNub8-et4',
+      useTemplateId: '21oQA-YxnvW-NbbplnQD8i7_11AHS6neTj5BJN-yG9A',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -65,7 +65,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
-      useTemplateId: 'ObYRZ4k_C9LHeGTHiuhdzkN6xDSqM7lLGiTNub8-et4',
+      useTemplateId: '21oQA-YxnvW-NbbplnQD8i7_11AHS6neTj5BJN-yG9A',
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',
@@ -105,13 +105,13 @@ const USER_CONFIG = {
     {
       keyword: 'lover_prattle',
       contents: [
-        '你是宇宙里恰好相遇的浪漫',
         '今天数学有好好听吗？'
         '高考很顺哦',
         'Miss雷真个天才',
-        '早上好，如果以后不能遇见你，祝你早安，午安，晚安',
+        '早上好，Wendy，如果以后不能遇见你，提前祝你早安，午安，晚安',
         '拿起你的宝丽来多拍拍生活的美好',
         '你又瘦了,马甲线更明显了',
+        '一日一题：已知函数f(x)=ax^3-3x^2+1，如果f(x)存在唯一零点x0，且x0>0，则实数a的取值范围是()A(1，+∞)B(2，+∞)C(-∞，-1)D(-∞，-2)',
       ],
     }
     // 你可以不断按格式往下增加

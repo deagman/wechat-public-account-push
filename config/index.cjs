@@ -105,7 +105,7 @@ const USER_CONFIG = {
     {
       keyword: 'lover_prattle',
       contents: [
-        '今天数学有好好听吗？'
+        '今天数学有好好听吗？',
         '高考很顺哦',
         'Miss雷真个天才',
         '早上好，Wendy，如果以后不能遇见你，提前祝你早安，午安，晚安',

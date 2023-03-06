@@ -18,13 +18,14 @@ const USER_CONFIG = {
   //CITY: '成都',
 
   USERS: [
+    
     {
       // 想要发送的人的名字
       name: 'Wendy',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oHVV_6UrhnFSdStmzBoemIAXlfqI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '21oQA-YxnvW-NbbplnQD8i7_11AHS6neTj5BJN-yG9A',
+      useTemplateId: 	'cB6vaDHJiamwApU6FCP5Gz7NF6P7pASlN1c2KZjyIZs',
       // 所在省份或城市，也可以不填
       province: '四川',
       // 所在城市或县区
@@ -64,10 +65,11 @@ const USER_CONFIG = {
         // { keyword: 'coming_day', date: '2023-01-01'}
       ],
     },
+    
     {
       name: '自己',
       id: 'oHVV_6R1rm-Eh9mdo2NuEPyLU3xU',
-      useTemplateId: '21oQA-YxnvW-NbbplnQD8i7_11AHS6neTj5BJN-yG9A',
+      useTemplateId: 'cB6vaDHJiamwApU6FCP5Gz7NF6P7pASlN1c2KZjyIZs',
       province: '四川',
       city: '成都',
       horoscopeDate: '09-02',
@@ -103,6 +105,7 @@ const USER_CONFIG = {
         // { keyword: 'coming_day', date: '2023-01-01'}
       ],
     }
+    
   ],
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
@@ -123,7 +126,7 @@ const USER_CONFIG = {
     {
       keyword: 'lover_prattle',
       contents: [
-        '今天数学有好好听吗？',
+        'take it easy',
         '高考很顺哦',
         'Miss雷真个天才',
         '早上好，Wendy，如果以后不能遇见你，提前祝你早安，午安，晚安',
